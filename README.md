@@ -11,6 +11,9 @@ This is a simple weather dashboard that uses the OpenWeather API to pull weather
 As a user I want to be able input a city and have the relative current weather data display as well as the 5 day forecast. This data will then save into the search history in local storage.
 ```
 
+## Mockup
+![Mockup image](./assets/images/weather-dashboard.png)
+
 ## Deployed URL
 https://ggeils.github.io/Weather-Dashboard/index.html
 
