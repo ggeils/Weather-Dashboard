@@ -13,6 +13,7 @@
 </header>
 <body>
 <main class="container-fluid">
+    <!-- Left column that holds search input and history -->
         <div class="row">
             <div id="leftColumn" class="bg-light col-3 d-flex">
                 <div class="form-group w-100 font-weight-bold">
@@ -20,13 +21,24 @@
                     <div class="col-10 p-0 input-group">
                         <input id="searchInput" type="text" class="form-control" placeholder="San Diego"/>
                         <div id="" class="input-group-append">
-                            <button class="btn btn-primary search-submit" type="button" id="search-submit"><i id="" class="fa fa-search"></i></button>
+                        <button class="btn btn-primary search-submit" type="button" id="search-submit"><i id="" class="fa fa-search"></i></button>
                         </div>
                     </div>
                     <div class="mt-2 list-group">
                     </div>
                 </div>
             </div>
+        </div>
+    <!-- Right/middle column that holds current result card data-->
+        <div class="col-9">
+            <div class="mt-2 card">
+                <div class="card-body">
+                    <h3 class="card-title mb-3"><span id="city" ></span> (<span id="date" ></span>)<img id="weatherIcon" src="" alt="weather icon"></h3>
+                    <p class="card-text">Temperature: <span id="temperature" > °F</span> </p>
+                    <p class="card-text">Humidity: <span id="humidity" ></span>%</p>
+                    <p class="card-text">Wind Speed: <span id="windSpeed" ></span> MPH</p>
+                    <p class="card-text">UV Index: <span id="uvIndex" ></span></p>
+                </div>
         </div>
 </main>
     
